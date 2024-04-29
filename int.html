@@ -4,11 +4,7 @@
   window.intercomSettings = {
     api_base: "https://api-iam.intercom.io",
     app_id: "pcepsdd7",
-    name: "{{ request.user.name|escapejs }}", // Full name
-    user_id: "{{ request.user.id|escapejs }}", // a UUID for your user
-    email: "{{ request.user.email|escapejs }}", // the email for your user
-    created_at: "{{ request.user.date_joined|date:"U" }}" // Signup date as a Unix timestamp
-  };
+      };
 </script>
 
 <script>
